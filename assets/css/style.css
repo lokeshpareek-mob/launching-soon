@@ -1,0 +1,158 @@
+/* body {
+    background: #0e3654;
+} */
+.bg {
+  background: #0e3654;
+}
+.logo {
+  top: 30px;
+  left: 51px;
+}
+.banner_block h1 {
+    font-size: 72px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.banner_block p {
+    opacity: 0.9;
+    font-weight: 300;
+    display: block;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none !important;
+}
+.join_btn {
+    border: 2px solid #ea6a2b;
+    font-weight: 500;
+    padding: 9px 25px;
+    position: relative;
+    display: inline-block;
+    transition: all .4s linear;
+    font-family: "Poppins", sans-serif;
+  }
+  .join_btn:hover {
+    background: #ea6a2b;
+  }
+  .social-block {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .social-block span {
+    display: inline-block;
+    width: 100px;
+    background: #fff;
+    height: 1px;
+    margin: 0 15px;
+    opacity: 0.7;
+  }
+  .social-block i {
+    margin: 0 10px;
+    font-size: 22px;
+    color: #ea6a2b;
+    color: #fff;
+  }
+  .banner_block {
+    padding-top: 50px !important;
+  }
+
+  /* body {
+    background: #0e3654;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20230722/pngtree-empowered-unity-a-business-concept-depicted-as-a-3d-rendered-boulder-image_3766700.jpg') no-repeat;
+      background-color: rgba(0, 0, 0, 0);
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #0e3654;
+    background-blend-mode: overlay;
+  } */
+  .time-content {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+    border: 1px solid white;
+    padding: .5rem 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(250, 250, 250, 0.2);
+    width: 100%;
+    background: #fff;
+  }
+  .time-content .time {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .time .number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+    color: #0e3654;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  .time .text {
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+  /* .banner_block {
+    background: url('../img/banner-end-bg.png') no-repeat;
+    background-position: right;
+  } */
+  h2, h3 {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .banner_block {
+    position: relative;
+  }
+  .banner_block {
+    min-height: 100vh;
+  }
+
+  
+  .logo_block {
+    position: absolute;
+    top: 0;
+    background: #ea6a2b;
+    z-index: 5;
+  }
+  
+
+  @media (min-width: 1240px) {
+    .banner_block .container, .header_block .container {
+      max-width: 1240px !important;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    .time-content {
+      width: 345px;
+    }
+    .banner_block::before {
+      content: "";
+      display: block;
+      width: 45%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      background: url('../img/banner-end-bg.png') no-repeat;
+      background-position: right;
+      background-size: cover;
+      z-index: 2;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .banner_block h1 {
+        font-size: 52px;
+    }
+  }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future of Learning - Waitlist</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJhoJv8IK7tLHTR3Yt7S9JzFfOXEHO1y26hfRm5rA8PSv4v6lObyS9LTT4T1" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero-section {
+      background: linear-gradient(45deg, #007bff, #6610f2);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .features-section {
+      background-color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #007bff;
+    }
+    .countdown {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .social-icons i {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1 class="display-4">Something Big is Coming!</h1>
+      <p class="lead">The future of learning is about to change! Upgrade your skills and unlock new career opportunities.</p>
+      <p class="h3">The countdown has begun. Are you ready to level up?</p>
+      <div class="countdown" id="countdown"></div>
+      <a href="#waitlist" class="btn btn-light btn-lg mt-4">Join the Waitlist</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="mb-5">What’s in Store?</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-clipboard-check"></i>
+          </div>
+          <h4>Cutting-Edge Courses</h4>
+          <p>Real-world success with expert-designed courses.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-person-workspace"></i>
+          </div>
+          <h4>Hands-on Learning</h4>
+          <p>Learn directly from industry experts.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-graph-up-arrow"></i>
+          </div>
+          <h4>Career-Focused Training</h4>
+          <p>Accelerate your growth and unlock new opportunities.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-gift"></i>
+          </div>
+          <h4>Exclusive Benefits</h4>
+          <p>Get special perks when you sign up early.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist Section -->
+  <section id="waitlist" class="text-center py-5">
+    <div class="container">
+      <h3 class="mb-3">Be Among the First!</h3>
+      <p class="lead mb-4">Sign up now to get early access, insider updates, and exclusive launch offers!</p>
+      <a href="https://example.com/signup" class="btn btn-primary btn-lg">Join the Waitlist</a>
+    </div>
+  </section>
+
+  <!-- Social Media Section -->
+  <section class="text-center py-5 bg-light">
+    <div class="container">
+      <p class="lead">Follow us for behind-the-scenes updates:</p>
+      <div class="social-icons">
+        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+
+  <!-- Countdown Timer Script -->
+  <script>
+    // Countdown Timer
+    function startCountdown() {
+      var targetDate = new Date('March 20, 2025 00:00:00').getTime();
+      var countdownElement = document.getElementById('countdown');
+
+      var interval = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = targetDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+          clearInterval(interval);
+          countdownElement.innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    }
+
+    // Start the countdown
+    startCountdown();
+  </script>
+</body>
+</html>

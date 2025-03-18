@@ -123,6 +123,18 @@ a {
     background: #ea6a2b;
     z-index: 5;
   }
+
+  .logo_block .col-md-2::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 100%;
+    background: #ea6a2b;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 69% 49%, 0% 0%);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   
 
   @media (min-width: 1240px) {
@@ -133,6 +145,9 @@ a {
   }
 
   @media (min-width: 768px) {
+    .logo_block .col-md-2 {
+      width: 260px;
+    }
     .time-content {
       width: 345px;
     }

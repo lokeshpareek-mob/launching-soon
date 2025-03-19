@@ -7,37 +7,37 @@
     padding: 6.94px !important;
     background-color: rgba(0,0,0,0.15);
     border-radius: 4px;
-  }
-  .university_bg h2 {
+}
+.university_bg h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;
-  }
-  .university_text {
+}
+.university_text {
     color: #ffffff73;
-  }
-  .university_text span {
+}
+.university_text span {
     color: #fff;
-  }
-  .university_text {
+}
+.university_text {
     color: #ffffff73;
     display: flex;
     align-items: center;
     gap: 8px;
     flex-wrap: wrap;
     font-size: 13px;
-  }
-  .university_text i {
+}
+.university_text i {
     margin-right: 5px;
-  }
-  .clg_btn {
+}
+.clg_btn {
     height: 56px;
     font-weight: 500;
     align-items: center;
     justify-content: center;
     display: flex;
-  }
-  .clg_btn span {
+}
+.clg_btn span {
     margin-left: 0.25rem;
     display: block;
     height: 24px;
@@ -45,28 +45,28 @@
     background: url('../img/common-clg-sprite.svg');
     background-size: auto;
     background-position: -274px -175px;
-  }
-  .clg_btn.apply_clg_btn span {
+}
+.clg_btn.apply_clg_btn span {
     background-position: -316px -175px;
-  }
-  .lead-hdr-img {
+}
+.lead-hdr-img {
     border-radius: 50%;
     background: rgb(255, 255, 255);
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     width: 90px;
     height: 90px;
-  }
-  .apply_header h5 {
+}
+.apply_header h5 {
     font-weight: 700;
     color: rgb(255, 121, 0);
-  }
-  .apply_header p {
+}
+.apply_header p {
     color: #333;
     font-weight: 500;
     margin: 4px 0px 0px;
-  }
-  .apply_header .btn-close {
+}
+.apply_header .btn-close {
     top: 24px;
     right: 20px;
     background-color: rgb(248, 248, 248);
@@ -76,10 +76,10 @@
     height: 40px;
     border-radius: 50%;
     position: absolute;
-  }
+}
 
 
-  .college_courses .form-control {
+.college_courses .form-control {
     display: block;
     width: 100%;
     height: calc(1.3em + 0.75rem + 2px);
@@ -95,46 +95,46 @@
     border-radius: 0.25rem;
     -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  }
-  .college_courses .material-form-field-wrapper {
+}
+.college_courses .material-form-field-wrapper {
     margin-bottom: 0.75rem;
-  }
-  .college_courses .material-form-field {
+}
+.college_courses .material-form-field {
     position: relative;
     margin-bottom: 0.75rem;
-  }
-  .college_courses .material-form-field input:not(.equi-padded) {
+}
+.college_courses .material-form-field input:not(.equi-padded) {
     padding-left: 35px;
-  }
-  .college_courses .material-form-field input {
+}
+.college_courses .material-form-field input {
     height: 49px;
-  }
-  .college_courses .material-form-field input {
+}
+.college_courses .material-form-field input {
     font-size: 0.875rem;
-  }
-  .college_courses .icon {
+}
+.college_courses .icon {
     display: inline-block;
     line-height: initial;
     height: 15px;
     width: 15px;
-  }
-  .college_courses .material-form-field .mat-prepend-icon {
+}
+.college_courses .material-form-field .mat-prepend-icon {
     position: absolute;
     top: 53%;
     left: 10px;
     transform: translateY(-50%);
-  }
-  .college_courses .icon-gray svg, .icon-gray svg path {
+}
+.college_courses .icon-gray svg, .icon-gray svg path {
     fill: #5d5d67 !important;
     opacity: 1 !important;
     color: #5d5d67;
-  }
-  .college_courses .icon svg {
+}
+.college_courses .icon svg {
     display: block;
     height: 100%;
     width: 100%;
-  }
-  .college_courses .material-form-field .material-field-label {
+}
+.college_courses .material-form-field .material-field-label {
     transition: 0.2s;
     pointer-events: none;
     top: 0px;
@@ -146,72 +146,72 @@
     padding: 0px 5px;
     z-index: 1;
     font-size: 12.5px;
-  }
-  .college_courses .material-form-field input.material-field:not(:focus):placeholder-shown ~ .material-field-label {
+}
+.college_courses .material-form-field input.material-field:not(:focus):placeholder-shown ~ .material-field-label {
     left: 30px;
     top: 50%;
     font-size: 0.875rem;
-  }
-  .college_courses .material-form-field input.material-field:not(:focus):placeholder-shown ~ .material-field-label {
+}
+.college_courses .material-form-field input.material-field:not(:focus):placeholder-shown ~ .material-field-label {
     font-size: 0.875rem;
-  }
-  .college_courses .material-form-field .material-field-label {
+}
+.college_courses .material-form-field .material-field-label {
     pointer-events: none;
     font-weight: 400;
-  }
-  .college_courses .mat-feedback {
+}
+.college_courses .mat-feedback {
     position: absolute;
     bottom: -2px;
     font-size: 10px;
-  }
-  .college_courses .material-form-field-wrapper.country-code {
+}
+.college_courses .material-form-field-wrapper.country-code {
     padding-right: 0px;
     flex-basis: 90px;
     max-width: 70px;
-  }
-  .college_courses .material-form-field-wrapper {
+}
+.college_courses .material-form-field-wrapper {
     margin-bottom: 0.75rem;
-  } 
-  .college_courses .material-form-field {
+} 
+.college_courses .material-form-field {
     position: relative;
     margin-bottom: 0.75rem;
-  }
-  .college_courses .material-form-field-wrapper.phone_no {
+}
+.college_courses .material-form-field-wrapper.phone_no {
     padding-left: 0px;
-  }
-  .college_courses .material-form-field input:not(.equi-padded) {
+}
+.college_courses .material-form-field input:not(.equi-padded) {
     padding-left: 35px;
-  }
-  .college_courses .material-form-field-wrapper.phone_no input {
+}
+.college_courses .material-form-field-wrapper.phone_no input {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-  }
-  .college_courses .material-form-field-wrapper.country-code #leadcountry_code, .material-form-field-wrapper.country-code #leadcountry_no_code {
+}
+.college_courses .material-form-field-wrapper.country-code #leadcountry_code, .material-form-field-wrapper.country-code #leadcountry_no_code {
     padding-left: 5px !important;
     padding-right: 5px !important;
     text-align: center;
-  }
-  .college_courses .material-form-field-wrapper.country-code input {
+}
+.college_courses .material-form-field-wrapper.country-code input {
     border-right: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     padding: 15px 13px;
-  }
-  .college_courses .material-form-field-wrapper .switch-wrapper {
+}
+.college_courses .material-form-field-wrapper .switch-wrapper {
     height: 49px;
-  }
-  .college_courses .material-form-field-wrapper .switch {
+}
+.college_courses .material-form-field-wrapper .switch {
     display: flex;
     -moz-box-align: center;
     align-items: center;
     height: 20px;
     font-size: 13px;
     width: 100%;
-  }
-  .college_courses .material-form-field-wrapper .switch input {
+}
+.college_courses .material-form-field-wrapper .switch input {
     display: none;
-  }
-  .college_courses .material-form-field-wrapper .switch .slider {
+}
+.college_courses .material-form-field-wrapper .switch .slider {
 	width: 52px;
 	height: 20px;
 	position: relative;
@@ -226,17 +226,17 @@
   text-transform: inherit;
   padding: 0;
   pointer-events: auto;
-  }
-  .college_courses .material-form-field-wrapper .switch .text {
+}
+.college_courses .material-form-field-wrapper .switch .text {
     font-weight: bold;
-  }
-  .college_courses .material-form-field-wrapper .switch .slider.round {
+}
+.college_courses .material-form-field-wrapper .switch .slider.round {
     border-radius: 34px;
-  }
-  .college_courses .material-form-field-wrapper .switch .slider.round::before {
+}
+.college_courses .material-form-field-wrapper .switch .slider.round::before {
     border-radius: 50%;
-  }
-  .college_courses .material-form-field-wrapper .switch .slider::before {
+}
+.college_courses .material-form-field-wrapper .switch .slider::before {
     position: absolute;
     content: "";
     height: 21px;
@@ -247,8 +247,8 @@
     background-color: rgb(255, 255, 255);
     transition: 0.4s;
     box-shadow: rgb(207, 207, 207) 0px 0px 2px 1px;
-  }
-  .college_courses .material-form-field-wrapper .switch .on, .material-form-field-wrapper .switch .off {
+}
+.college_courses .material-form-field-wrapper .switch .on, .material-form-field-wrapper .switch .off {
     color: rgb(255, 255, 255);
     position: absolute;
     transform: translate(-50%, -50%);
@@ -257,11 +257,11 @@
     font-size: 10px;
     font-family: Verdana, sans-serif;
     text-transform: uppercase;
-  }
-  .college_courses .material-form-field-wrapper .switch .on {
+}
+.college_courses .material-form-field-wrapper .switch .on {
     display: none;
-  }
-  .college_courses .material-form-field-wrapper .switch .on, .college_courses .material-form-field-wrapper .switch .off {
+}
+.college_courses .material-form-field-wrapper .switch .on, .college_courses .material-form-field-wrapper .switch .off {
     color: rgb(255, 255, 255);
     position: absolute;
     transform: translate(-50%, -50%);
@@ -270,32 +270,32 @@
     font-size: 10px;
     font-family: Verdana, sans-serif;
     text-transform: uppercase;
-  }
-  .college_courses .agree-section {
+}
+.college_courses .agree-section {
     font-size: 13px;
-  }
-  .college_courses .font-weight-semi {
+}
+.college_courses .font-weight-semi {
     font-weight: 600;
-  }
-  .college_courses .agree-section > a {
+}
+.college_courses .agree-section > a {
     color: rgb(79, 184, 221) !important;
-  }
-  .college_courses .text-primary {
+}
+.college_courses .text-primary {
     color: #ff7900 !important;
     font-weight: 700;
     font-size: 14px;
-  }
-  .college_courses .btn-block {
+}
+.college_courses .btn-block {
     display: block;
     width: 100%;
-  }
-  .college_courses .btn-primary {
+}
+.college_courses .btn-primary {
     color: #fff !important;
     background-color: #ff7900 !important;
     border-color: #ff7900 !important;
-  }
+}
 
-  .college_courses .btn {
+.college_courses .btn {
 	display: inline-block;
 	font-weight: 400;
 	color: #333;
@@ -322,5 +322,5 @@
 .college_courses .material-form-field-wrapper .mat-clear-icon svg {
     width: 0.7rem;
     height: 0.7rem;
-  }
+}
   
